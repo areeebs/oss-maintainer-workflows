@@ -1,0 +1,8 @@
+{
+  "repo": "example/project",
+  "number": 42,
+  "title": "CLI exits with unclear error when config file is missing",
+  "body": "When I run the command in a clean checkout, it exits with code 1 but does not say which config file is missing. Expected a helpful path and setup hint.",
+  "labels": ["bug", "needs-triage"],
+  "comments": []
+}

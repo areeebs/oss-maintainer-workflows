@@ -1,0 +1,6 @@
+{
+  "repo": "example/project",
+  "run_id": 2048,
+  "job_name": "test-python-3.12",
+  "failure_log": "Collecting package metadata\nRunning tests\nFAILED tests/test_config.py::test_missing_config_message\nE AssertionError: expected 'config.toml' in message\n1 failed, 124 passed"
+}

@@ -1,0 +1,8 @@
+{
+  "repo": "example/project",
+  "advisory": {"id": "GHSA-example-0000-0000", "package": "sample-lib", "affected_range": ">=2.0,<2.4", "patched_version": "2.4.0", "summary": "Example advisory fixture; not a real vulnerability."},
+  "package_inventory": [
+    {"name": "sample-lib", "version": "2.1.0", "source": "requirements.lock", "direct": true},
+    {"name": "other-lib", "version": "1.0.0", "source": "requirements.lock", "direct": true}
+  ]
+}

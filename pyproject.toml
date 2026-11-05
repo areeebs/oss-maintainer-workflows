@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oss-maintainer-workflows"
+version = "0.1.0"
+description = "Human-reviewed AI drafts for recurring open-source maintainer work"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "Ahmed Areeb"}]
+dependencies = []
+
+[project.optional-dependencies]
+api = ["openai>=2.0,<3.0"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+maintainerkit = "maintainerkit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["maintainerkit*"]

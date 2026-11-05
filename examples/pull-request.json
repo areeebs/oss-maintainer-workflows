@@ -1,0 +1,9 @@
+{
+  "repo": "example/project",
+  "number": 51,
+  "title": "Cache parsed policy files",
+  "body": "Adds an in-process cache for policy parsing.",
+  "diff": "diff --git a/src/policy.py b/src/policy.py\n@@ -10,2 +10,5 @@\n+_CACHE = {}\n+def load_policy(path):\n+    if path in _CACHE: return _CACHE[path]\n+    return parse(path)",
+  "labels": [],
+  "comments": []
+}

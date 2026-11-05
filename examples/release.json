@@ -1,0 +1,8 @@
+{
+  "repo": "example/project",
+  "version": "1.4.0",
+  "merged_prs": [
+    {"number": 88, "title": "Add JSON output mode", "labels": ["enhancement"], "body": "Adds --format json for machine-readable output."},
+    {"number": 91, "title": "Handle empty input gracefully", "labels": ["bug"], "body": "Return a clear validation message instead of a traceback."}
+  ]
+}
