@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible problem in a workflow or its documentation.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include API keys, private repository data, personal data, or unredacted logs.
+  - type: input
+    id: workflow
+    attributes:
+      label: Workflow and version
+      placeholder: issue-triage, 0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and sanitized example
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+    validations:
+      required: true

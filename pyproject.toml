@@ -14,7 +14,6 @@ dependencies = []
 
 [project.optional-dependencies]
 api = ["openai>=2.0,<3.0"]
-dev = ["pytest>=8.0"]
 
 [project.scripts]
 maintainerkit = "maintainerkit.cli:main"

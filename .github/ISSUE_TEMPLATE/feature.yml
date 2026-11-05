@@ -1,0 +1,25 @@
+name: Workflow idea
+description: Suggest a recurring open-source maintainer task to support.
+title: "[Workflow]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: Repeated maintainer task
+      description: What decisions or steps does a maintainer perform today?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Example input and useful output
+      description: Use synthetic or sanitized examples only.
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: What should remain a human decision?
+    validations:
+      required: true
