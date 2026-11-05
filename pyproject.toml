@@ -13,7 +13,7 @@ authors = [{name = "Ahmed Areeb"}]
 dependencies = []
 
 [project.optional-dependencies]
-api = ["openai>=2.0,<3.0"]
+api = ["openai>=2.0,<4.0"]
 
 [project.scripts]
 maintainerkit = "maintainerkit.cli:main"
